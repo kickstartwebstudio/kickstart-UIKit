@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard - UIKit Kickstart</title>
+<meta name="description" content="Kickstart template for dashboard index page">
+<!-- <link rel="icon" href="assets/img/favicon.ico"> -->
+
+<!-- OG -->
+<meta property="og:title" content="Dashboard - UIKit Kickstart" />
+<meta property="og:description" content="Kickstart template for dashboard index page" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="" />
+<meta property="og:image:secure_url" content="" />
+
+<!-- STYLES -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/uikit@latest/dist/css/uikit.min.css">
+<style>
+    
+    
+    header {
+	z-index: 9;
+	top: 0;
+	left:0;
+	right:0;
+}
+aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 240px;
+    z-index: 2;
+    transition: height 0.3s ease-out;
+}
+    .kc-bg-white {
+        background-color: #ffffff;
+    }
+@media (min-width: 960px) {
+    header {
+        margin-left: 240px;
+    }
+    main {
+        margin-left: 240px;
+        padding-top: 100px;
+    }
+}
+
+
+</style>
+</head>
+<body>
+
+		<!--HEADER-->
+		<header class="uk-position-fixed">
+			<div class="uk-container uk-container-expand uk-background-primary">
+				<nav class="uk-navbar uk-light" data-uk-navbar="mode:click; duration: 250">
+
+					<div class="uk-navbar-right">
+						<ul class="uk-navbar-nav">
+							<li><a href="#" data-uk-icon="icon:user" title="Your profile" data-uk-tooltip></a></li>
+							<li><a href="#" data-uk-icon="icon: settings" title="Settings" data-uk-tooltip></a></li>
+							<li><a href="#" data-uk-icon="icon:  sign-out" title="Sign Out" data-uk-tooltip></a></li>
+							<li><a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav" title="Offcanvas" data-uk-tooltip></a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!--/HEADER-->
+
+<aside class="uk-background-secondary uk-visible@m">
+    <div class="uk-text-center uk-margin">
+        <span class="uk-margin-small-bottom" uk-icon="icon: nut; ratio: 3"></span>
+        <div class="uk-text-uppercase uk-text-bold">Kickstart</div>
+    </div>
+</aside>
+
+
+<main class="uk-background-muted">
+    <div class="uk-container uk-container-expand">
+        
+    <div class="uk-card uk-card-default uk-card-body">
+        <h3 class="uk-card-title">
+            title
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate neque, dignissimos numquam voluptates ratione labore laboriosam iste explicabo ut repellendus obcaecati, alias quam id ad magnam quas necessitatibus voluptatum! Quibusdam in officiis expedita cumque repellat excepturi, quasi perspiciatis modi voluptates debitis. Earum iusto architecto beatae, eaque iste accusantium voluptate perferendis.</p>
+    </div>        
+    </div>
+
+
+    
+    
+    
+</main>
+
+
+
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

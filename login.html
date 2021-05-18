@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login - UIKit Kickstart</title>
+<meta name="description" content="Kickstart template for simple login page">
+<!-- <link rel="icon" href="assets/img/favicon.ico"> -->
+
+<!-- OG -->
+<meta property="og:title" content="Login - UIKit Kickstart" />
+<meta property="og:description" content="Kickstart template for simple login page" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="" />
+<meta property="og:image:secure_url" content="" />
+
+<!-- STYLES -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/uikit@latest/dist/css/uikit.min.css">
+<style>
+    body.kc-login {
+        background-image: url('https://source.unsplash.com/aOC7TSLb1o8/1600x900');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;        
+    }
+</style>
+</head>
+<body class="kc-login uk-cover-container uk-background-secondary uk-flex uk-flex-center uk-flex-middle uk-height-viewport uk-overflow-hidden uk-light" data-uk-height-viewport>
+
+    <div class="uk-position-cover uk-overlay-primary"></div>
+    <div class="uk-position-bottom-center uk-position-small uk-visible@m uk-position-z-index">
+        <p class="uk-text-meta uk-text-center">&copy; 2021 Kickstart UI Template</p>
+    </div>
+    <div class="uk-width-medium uk-padding uk-background-secondary uk-border-rounded uk-position-z-index">
+        <div class="uk-text-center uk-margin">
+            <span class="uk-margin-small-bottom" uk-icon="icon: nut; ratio: 3"></span>
+            <div class="uk-text-uppercase uk-text-bold">Kickstart</div>
+        </div>
+        <form class="toggle-class" action="login-dark.html">
+            <fieldset class="uk-fieldset">
+                <div class="uk-margin">
+                    <div class="uk-inline uk-width-1-1">
+                        <span class="uk-form-icon uk-form-icon-flip" data-uk-icon="icon: user"></span>
+                        <input class="uk-input" required placeholder="Username" type="text">
+                    </div>
+                </div>
+                <div class="uk-margin">
+                    <div class="uk-inline uk-width-1-1">
+                        <span class="uk-form-icon uk-form-icon-flip" data-uk-icon="icon: lock"></span>
+                        <input class="uk-input" required placeholder="Password" type="password">
+                    </div>
+                </div>
+                <div class="uk-margin">
+                    <label><input class="uk-checkbox" type="checkbox"> Keep me logged in</label>
+                </div>
+                <div class="uk-margin-bottom">
+                    <button type="submit" class="uk-button uk-button-primary uk-border-rounded uk-width-1-1">Login</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
