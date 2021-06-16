@@ -1,0 +1,16 @@
+/* FIXING FONT RENDERING */
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap");
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* GLOBAL TYPOGRAPHY */
+body { font-family: 'Sen', sans-serif; }
+
+h1, h2, h3, h4, h5 { font-family: 'Sen', sans-serif; font-weight: 700; }
+
+/* GLOBAL COLORS */
+p.rz-display::after { content: "mobile"; }
+
+@media (min-width: 640px) { p.rz-display::after { content: "small"; } }
+@media (min-width: 960px) { p.rz-display::after { content: "medium"; } }
+@media (min-width: 1200px) { p.rz-display::after { content: "large"; } }
+@media (min-width: 1600px) { p.rz-display::after { content: "extra large"; } }

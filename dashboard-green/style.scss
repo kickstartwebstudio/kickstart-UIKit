@@ -1,0 +1,59 @@
+/* FIXING FONT RENDERING */
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+
+/* GLOBAL TYPOGRAPHY */
+body {
+    font-family: 'Sen', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+}
+
+/* GLOBAL COLORS */
+$primary: #252F3F;
+$grey-light: #F8F8F8;
+$grey: #C4C4C4;
+$grey-subtle: #EDEDED;
+
+
+p.rz-display::after {
+    content: "mobile";
+}
+
+// Small devices (landscape phones, 640px and up)
+@media (min-width: 640px) {
+    p.rz-display::after {
+        content: "small";
+    }
+}
+
+// Medium devices (tablets, 960px and up)
+@media (min-width: 960px) {
+    p.rz-display::after {
+        content: "medium";
+    }
+}
+
+// Large devices (desktops, 1200px and up)
+@media (min-width: 1200px) {
+    p.rz-display::after {
+        content: "large";
+    }
+}
+
+// Extra large devices (large desktops, 1600px and up)
+@media (min-width: 1600px) {
+    p.rz-display::after {
+        content: "extra large";
+    }
+}
