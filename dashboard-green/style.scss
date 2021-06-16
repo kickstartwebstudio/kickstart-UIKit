@@ -3,26 +3,30 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
 
 
 /* GLOBAL TYPOGRAPHY */
 body {
-    font-family: 'Sen', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-    font-family: 'Sen', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 700;
 }
 
 /* GLOBAL COLORS */
-$primary: #252F3F;
+$primary: #00A87B;
+$primary-subtle: #D9F2EB;
+$darkest: #403A3A;
+$dark: #766B6B;
+
 $grey-light: #F8F8F8;
-$grey: #C4C4C4;
+$grey: #948E8E;
 $grey-subtle: #EDEDED;
 
 
