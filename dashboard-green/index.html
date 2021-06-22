@@ -18,37 +18,8 @@
 
 <!-- STYLES -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/uikit@latest/dist/css/uikit.min.css">
-<style>
-    header {
-        z-index: 9;
-        top: 0;
-        left:0;
-        right:0;
-    }
-    aside {
-        position: fixed;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        overflow-x: hidden;
-        overflow-y: auto;
-        width: 240px;
-        z-index: 2;
-        transition: height 0.3s ease-out;
-    }
-    .kc-bg-white {
-        background-color: #ffffff;
-    }
-    @media (min-width: 960px) {
-    header {
-        margin-left: 240px;
-    }
-    main {
-        margin-left: 240px;
-        padding-top: 120px;
-    }
-}
-</style>
+<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 
@@ -70,10 +41,35 @@
 </header>
 <!--/HEADER-->
 
-<aside class="uk-background-secondary uk-visible@m">
-    <div class="uk-text-center uk-margin">
-        <span class="uk-margin-small-bottom" uk-icon="icon: nut; ratio: 3"></span>
+<aside class="uk-visible@m">
+    <div class="">
+        <span class="uk-margin-small-bottom" uk-icon="icon: nut; ratio: 2"></span>
         <div class="uk-text-uppercase uk-text-bold">Kickstart</div>
+		
+		<ul class="uk-nav uk-nav-parent-icon kc-sidebar" data-uk-nav>
+            <li><a href="index.html">Home</a></li>
+            <li class="uk-parent"><a href="#">Content</a>
+                <ul class="uk-nav-sub">
+                    <li><a href="page.html">Add New</a></li>
+                    <li><a href="page.html">View Content List</a></li>
+                </ul>
+            </li>
+            <li class="uk-parent"><a href="#">Users</a>
+                <ul class="uk-nav-sub">
+                    <li><a href="page.html">Add New</a></li>
+                    <li><a href="page.html">View User List</a></li>
+                </ul>
+            </li>
+            <li class="uk-parent"><a href="#">Setting</a>
+                <ul class="uk-nav-sub">
+                    <li><a href="page.html">Profile</a></li>
+                    <li><a href="page.html">Module</a></li>
+					<li><a href="page.html">Users</a></li>
+                </ul>
+            </li>
+                                                      
+        </ul>    		
+		
     </div>
 </aside>
 
